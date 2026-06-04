@@ -30,9 +30,6 @@ public class MainPerpustakaan {
         System.out.println();
         
        perpus.tampilkanKoleksi();
-       perpus.cariPenulis("Andrea Hirata");
-       
-
-        
+       perpus.cariPenulis("Andrea Hirata");       
     }
 }

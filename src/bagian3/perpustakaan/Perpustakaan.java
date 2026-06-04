@@ -63,7 +63,7 @@ public class Perpustakaan {
         System.out.println("Buku " + judul + " tidak ditemukan.");
     }
     
-    
+    //Mencari Karya Penulis berdasarkan nama penulis (Soal 3)
     public void cariPenulis(String penulis){
         for(Buku b : koleksi){
             if(b.getPenulis().equals(penulis)){

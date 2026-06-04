@@ -20,7 +20,7 @@ public class Buku {
     public int getTahunTerbit() {
         return tahunTerbit;
     }
-
+    //Soal No 2
     public String getJudul() {
         return judul;
     }
@@ -38,7 +38,7 @@ public class Buku {
         this.dipinjam = dipinjam;
     }
 // Mengembalikan keterangan buku dalam bentuk teks
-
+    //Soal No 2
     public String info() {
         String status = dipinjam ? "Dipinjam" : "Tersedia";
         return judul + " oleh " + penulis + " | Tahun Terbit: " + tahunTerbit + " [" + status + "]";
